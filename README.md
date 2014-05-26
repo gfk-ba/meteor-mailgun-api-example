@@ -7,6 +7,8 @@ This example is deployed at [meteor.com](http://mailgun-api-example.meteor.com)
 
 You can run the example locally using:
 ``` sh
+git clone git@github.com:gfk-ba/meteor-mailgun-api-example.git
+cd meteor-mailgun-api-example
 mrt install
 meteor
 ```
