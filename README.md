@@ -1,4 +1,4 @@
-notifications-example
+mailgun-api-example
 -------------
 
 Very simple example application demonstrating [mailgun-api Atmosphere](https://atmospherejs.com/package/mailgun-api) [mailgun-api Github](https://github.com/gfk-ba/meteor-mailgun-api).
@@ -13,7 +13,7 @@ mrt install
 meteor
 ```
 
-When running locally you can add a LoginFile.js to the client with the following code:
+When running locally you can add a LoginFile.js to the client folder with the following code:
 
 ``` javascript
 LoginData = {
