@@ -1,0 +1,52 @@
+<template name="send">
+    <div class="row">
+        <h1>Send</h1>
+    </div>
+    <div class="row">
+        <span>Queues the given mail for sending in the mailgun queue. Mailgun's alghoritmes calculate max send speed and stuff like that.</span>
+    </div>
+    <div class="row">
+        <label>Email from</label>
+        <input class="js-from" type="text" placeholder="Email address" />
+    </div>
+    <div class="row">
+        <label>Email to recipient</label>
+        <input class="js-to" type="text" placeholder="Email address" />
+    </div>
+    <div class="row">
+        <label>Email cc recipient</label>
+        <input class="js-cc" type="text" placeholder="Email address" />
+    </div>
+    <div class="row">
+        <label>Email bcc recipient</label>
+        <input class="js-bcc" type="text" placeholder="Email address" />
+    </div>
+    <div class="row">
+        <label>Email subject</label>
+        <input class="js-subject" type="text" placeholder="Email subject" />
+    </div>
+
+    <div class="row">
+        <label>Email html message</label>
+        <textarea class="js-html" type="text" placeholder="html"></textarea>
+    </div>
+
+    <div class="row">
+        <label>Email text message</label>
+        <textarea class="js-text" type="text" placeholder="text only"></textarea>
+    </div>
+
+    <div class="row">
+        <label>Tags comma seperated max 3</label>
+        <input class="js-tags" type="text" placeholder="tags" />
+    </div>
+
+    <div class="row">
+        <label>Testmode</label>
+        <input class="js-testmode" type="checkbox" checked="checked">
+    </div>
+
+    <div class="row">
+        <input class="js-btn-client button" type="button" value="Send" />
+    </div>
+</template>

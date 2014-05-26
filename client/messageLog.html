@@ -1,0 +1,13 @@
+<template name="messageLog">
+    <div>
+        <span>Mailgun responses:</span>&nbsp;
+    </div>
+
+    <div class="messageLogs">
+		{{#each messages}}
+            <div class="messageLogItem">
+                <span class="{{#if error}}error{{/if}}">{{message}}</span>
+            </div>
+		{{/each}}
+    </div>
+</template>

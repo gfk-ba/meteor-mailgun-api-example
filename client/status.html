@@ -1,0 +1,24 @@
+<template name="status">
+    <div class="row">
+        <h1>getEvents</h1>
+    </div>
+
+    <div class="row">
+        <span>Gets events that match the given filter. Must be valid json.</span>
+    </div>
+	<div class="row">
+		<span>example: {"event": ["delivered"]} to get all delivered events</span>
+	</div>
+	<div class="row">
+		See <a href="http://documentation.mailgun.com/api-events.html#filter-field">mailgun api docs</a> for more info about possible filter fields.
+	</div>
+
+    <div class="row">
+        <label>Filter</label>
+        <textarea class="js-filter" type="text" placeholder="JSON"></textarea>
+    </div>
+
+    <div class="row">
+        <input class="js-btn-client button" type="button" value="Get" />
+    </div>
+</template>

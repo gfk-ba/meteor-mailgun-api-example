@@ -1,0 +1,24 @@
+<template name="apiInfo">
+    <div class="row">
+        <h1>API info</h1>
+    </div>
+
+    <div class="row">
+        Enter your Mailgun api credentials here.
+    </div>
+    <div class="row">
+        Please note: this example page doesn't use https so consider generating a new api key after using this test page.
+    </div>
+    <div class="row">
+        None of the data entered here is stored on the server!
+    </div>
+
+    <div class="row">
+        <label>API Key</label>
+        <input class="js-apiKey" type="text" placeholder="Api key" value="{{getApiKey}}" />
+    </div>
+    <div class="row">
+        <label>Domain</label>
+        <input class="js-domain" type="text" placeholder="Domain" value="{{getDomain}}" />
+    </div>
+</template>

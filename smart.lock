@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "mailgun-api": {},
+      "bootstrap-3": {}
+    },
+    "packages": {
+      "mailgun-api": {
+        "git": "https://github.com/gfk-ba/meteor-mailgun-api.git",
+        "tag": "v0.3.0",
+        "commit": "c1802874b3a2c34aad28a1de800b55e6b5ccc7f5"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      }
+    }
+  }
+}
