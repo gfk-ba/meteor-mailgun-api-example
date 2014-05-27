@@ -7,17 +7,22 @@ body {
 	margin: 0;
 }
 
+h1 {
+	color: #E55A00;
+	font-size: 26px;
+}
+
 #header {
-	background-color: #D7D6C4;
 	font-family: 'Josefin Slab', serif;
-	padding: 30px 20px;
+	padding: 20px 30px 30px 225px;
+	background: url('../logo.png') no-repeat 25px top #D7D6C4;
 }
 
 #header h1 {
 	font-size: 40px;
 	font-weight: bold;
 	color: black;
-	margin: 0;
+	margin: 0px 0px 2px 0px;
 }
 
 #header h2 {
@@ -78,7 +83,7 @@ label {
 	margin-top: 20px;
 }
 
-input {
+input, textarea {
     width: 250px;
     border: 1px solid #767450;
     border-radius: 4px;
@@ -86,7 +91,7 @@ input {
 }
 
 textarea {
-    width: 300px;
+    width: 600px;
     height: 200px;
 }
 
