@@ -9,7 +9,7 @@ function getFilter (template) {
 Template.status.events({
     'click .js-btn-client': function (event, template) {
         Meteor.call('getEvents', getLoginData(), getFilter(template), function (error, result) {
-            console.log(result.response);
+            console.log(result.items);
             if (!result.error) {
                 mailGunLog.insert({message: JSON.stringify(result.response)});
             } else {

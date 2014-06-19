@@ -8,8 +8,8 @@
     "packages": {
       "mailgun-api": {
         "git": "https://github.com/gfk-ba/meteor-mailgun-api.git",
-        "tag": "v0.3.0",
-        "commit": "c1802874b3a2c34aad28a1de800b55e6b5ccc7f5"
+        "tag": "v0.4.2",
+        "commit": "3b2c7ea7dbf576f455c4a2cd8c4a63102b0862c5"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
